@@ -1,5 +1,5 @@
 # ArtCalculator
-
+![Image alt](https://github.com/Lesuut/Artillery-Calculator-War-Thunder/blob/master/photo_2024-02-18_16-11-56.jpg).
 ![Image alt](https://github.com/Lesuut/Artillery-Calculator-War-Thunder/blob/master/photo_2024-02-18_16-11-53.jpg)
 
 Use the game in windowed or full screen mode
