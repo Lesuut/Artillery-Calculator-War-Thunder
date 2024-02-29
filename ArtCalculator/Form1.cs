@@ -9,8 +9,8 @@ namespace ArtCalculator
         private Rectangle bounds;
         private Bitmap screenshot;
 
-        private Point firstClick = Point.Empty; // Первый клик
-        private Point secondClick = Point.Empty; // Второй клик
+        private Point firstClick = Point.Empty; // First Point
+        private Point secondClick = Point.Empty; // Second Point
 
         private double gridDist;
 
@@ -37,7 +37,6 @@ namespace ArtCalculator
             int left = right - (bounds.Width / int.Parse(textBox3.Text)); 
             int top = bottom - (bounds.Height / int.Parse(textBox1.Text)); 
 
-            // Создайте Bitmap для хранения скриншота
             screenshot = new Bitmap(bounds.Width / int.Parse(textBox4.Text), bounds.Height / int.Parse(textBox4.Text));
 
             using (Graphics graphics = Graphics.FromImage(screenshot))
