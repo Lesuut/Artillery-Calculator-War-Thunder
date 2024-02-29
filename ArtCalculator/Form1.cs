@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Reflection.Emit;
 using System.Windows.Forms;
-using static System.Windows.Forms.LinkLabel;
 
 namespace ArtCalculator
 {
@@ -181,6 +178,9 @@ namespace ArtCalculator
         private void button3_Click(object sender, EventArgs e) // Clear Lines
         {
             pictureBox1.Invalidate();
+            firstClick = Point.Empty; 
+            secondClick = Point.Empty; 
+            UpdateViewPointStatus();
         }    
         private void UpdateViewPointStatus()
         {
